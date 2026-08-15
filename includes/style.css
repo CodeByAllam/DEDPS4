@@ -123,12 +123,12 @@ h1 .accent {
 }
 
 /* ---------- Card ---------- */
-.card {
-  background: rgba(23, 28, 40, 0.92);
-  border: 1px solid #242d40;
-  border-radius: 16px;
+.card {.card {
+  background: transparent;
+  border: none;
+  border-radius: 0;
   padding: 28px 22px 24px 22px;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
+  box-shadow: none;
 }
 
 /* ---------- Main button ---------- */
