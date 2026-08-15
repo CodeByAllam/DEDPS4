@@ -123,14 +123,13 @@ h1 .accent {
 }
 
 /* ---------- Card ---------- */
-.card {.card {
+.card {
   background: transparent;
   border: none;
   border-radius: 0;
   padding: 28px 22px 24px 22px;
   box-shadow: none;
 }
-
 /* ---------- Main button ---------- */
 .jb-btn {
   display: block;
