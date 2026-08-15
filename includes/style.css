@@ -7,7 +7,6 @@
 * {
   box-sizing: border-box;
 }
-
 html, body {
   height: 100%;
 }
@@ -15,12 +14,32 @@ html, body {
 body {
   margin: 0;
   padding: 24px;
-  background: #0c0e15;
-  background-image:
-    radial-gradient(1100px 480px at 50% -12%, rgba(0, 112, 209, 0.22), transparent 62%),
-    radial-gradient(900px 420px at 88% 112%, rgba(212, 175, 55, 0.10), transparent 60%),
-    linear-gradient(180deg, #0c0e15 0%, #10141d 100%);
+
+  background:
+    linear-gradient(
+      rgba(5, 8, 15, 0.55),
+      rgba(5, 8, 15, 0.75)
+    ),
+    url("background.jpg");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+
+  color: #dde3ee;
+  font-family: "SST", "Segoe UI", Arial, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+}
+
+  color: #dde3ee;
+  font-family: "SST", "Segoe UI", Arial, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  -webkit-text-size-adjust: 100%;
+}
   color: #dde3ee;
   font-family: "SST", "Segoe UI", Arial, "Helvetica Neue", sans-serif;
   font-size: 15px;
